@@ -1,9 +1,9 @@
 /** Output returned after a successful sign-up. */
 export interface SignUpOutput {
-  /** The newly created user's unique identifier. */
+  /** The registration id. */
   id: string;
   /** The user's email address. */
   email: string;
-  /** The date and time the account was created. */
+  /** The registration creation date. */
   createdAt: Date;
 }

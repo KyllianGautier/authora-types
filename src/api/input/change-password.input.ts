@@ -4,6 +4,6 @@ export interface ChangePasswordInput {
   email: string;
   /** The user's current password. */
   currentPassword: string;
-  /** The new password to set. */
+  /** The new password. */
   newPassword: string;
 }

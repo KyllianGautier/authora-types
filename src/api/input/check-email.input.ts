@@ -1,4 +1,4 @@
-/** Input for checking whether an email address is already registered. */
+/** Input for checking email availability. */
 export interface CheckEmailInput {
   /** The email address to check. */
   email: string;

@@ -6,4 +6,6 @@ export interface SignInInput {
   password: string;
   /** Whether to persist the session beyond the current browser session. */
   rememberMe: boolean;
+  /** URL to redirect the user to after sign-in. */
+  redirectUrl?: string;
 }
