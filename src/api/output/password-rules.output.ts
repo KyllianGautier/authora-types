@@ -1,4 +1,3 @@
-/** Output describing the active password strength rules. */
 export interface PasswordRulesOutput {
   minLength: number;
   requireDigit: boolean;
