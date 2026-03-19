@@ -1,4 +1,4 @@
-export interface DisableTwoFactorAuthInput {
+export interface VerifyMultiFactorAuthInput {
   email: string;
   password: string;
   code: string;
