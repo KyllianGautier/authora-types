@@ -1,6 +1,11 @@
 // API — Input
 export { SignUpInput } from './api/input/sign-up.input';
-export { SignInInput } from './api/input/sign-in.input';
+export { SessionPasswordInput } from './api/input/session-password.input';
+export { SessionExchangeInput } from './api/input/session-exchange.input';
+export { SessionTokenInput } from './api/input/session-token.input';
+export { SessionMagicLinkInput } from './api/input/session-magic-link.input';
+export { SessionMagicLinkValidateInput } from './api/input/session-magic-link-validate.input';
+export { SessionTotpValidateInput } from './api/input/session-totp-validate.input';
 export { VerifyEmailInput } from './api/input/verify-email.input';
 export { ResendVerificationEmailInput } from './api/input/resend-verification-email.input';
 export { CheckEmailInput } from './api/input/check-email.input';
@@ -12,13 +17,12 @@ export { ForgotPasswordVerifyInput } from './api/input/forgot-password-verify.in
 export { SetupMultiFactorAuthInput } from './api/input/setup-multi-factor-auth.input';
 export { VerifyMultiFactorAuthInput } from './api/input/verify-multi-factor-auth.input';
 export { DisableMultiFactorAuthInput } from './api/input/disable-multi-factor-auth.input';
-export { MagicLinkInput } from './api/input/magic-link.input';
-export { ValidateMagicLinkInput } from './api/input/validate-magic-link.input';
 export { CheckPasswordStrengthInput } from './api/input/check-password-strength.input';
 
 // API — Output
 export { SignUpOutput } from './api/output/sign-up.output';
 export { SignInOutput } from './api/output/sign-in.output';
+export { AuthSessionStatusOutput } from './api/output/auth-session-status.output';
 export { VerifyEmailOutput } from './api/output/verify-email.output';
 export { CheckEmailOutput } from './api/output/check-email.output';
 export { SetupMultiFactorAuthOutput } from './api/output/setup-multi-factor-auth.output';
