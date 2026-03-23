@@ -1,3 +1,3 @@
-export interface VerifyTwoFactorAuthOutput {
+export interface VerifyMultiFactorAuthOutput {
   recoveryCodes: string[];
 }

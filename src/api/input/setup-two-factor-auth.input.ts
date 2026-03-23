@@ -1,4 +1,4 @@
-export interface SetupTwoFactorAuthInput {
+export interface SetupMultiFactorAuthInput {
   email: string;
   password: string;
 }

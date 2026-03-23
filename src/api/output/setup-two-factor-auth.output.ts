@@ -1,4 +1,4 @@
-export interface SetupTwoFactorAuthOutput {
+export interface SetupMultiFactorAuthOutput {
   qrcode: string;
   manualCode: string;
 }
