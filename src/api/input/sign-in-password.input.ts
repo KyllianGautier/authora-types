@@ -1,4 +1,4 @@
-export interface SessionPasswordInput {
+export interface SignInPasswordInput {
   sessionId: string;
   email: string;
   password: string;

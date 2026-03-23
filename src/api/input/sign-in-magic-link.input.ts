@@ -1,4 +1,4 @@
-export interface SessionMagicLinkInput {
+export interface SignInMagicLinkInput {
   sessionId: string;
   email: string;
   locale?: string;

@@ -1,11 +1,11 @@
 // API — Input
 export { SignUpInput } from './api/input/sign-up.input';
-export { SessionPasswordInput } from './api/input/session-password.input';
-export { SessionExchangeInput } from './api/input/session-exchange.input';
-export { SessionTokenInput } from './api/input/session-token.input';
-export { SessionMagicLinkInput } from './api/input/session-magic-link.input';
-export { SessionMagicLinkValidateInput } from './api/input/session-magic-link-validate.input';
-export { SessionTotpValidateInput } from './api/input/session-totp-validate.input';
+export { SignInPasswordInput } from './api/input/sign-in-password.input';
+export { SignInExchangeInput } from './api/input/sign-in-exchange.input';
+export { SignInTokenInput } from './api/input/sign-in-token.input';
+export { SignInMagicLinkInput } from './api/input/sign-in-magic-link.input';
+export { SignInMagicLinkValidateInput } from './api/input/sign-in-magic-link-validate.input';
+export { SignInTotpValidateInput } from './api/input/sign-in-totp-validate.input';
 export { VerifyEmailInput } from './api/input/verify-email.input';
 export { ResendVerificationEmailInput } from './api/input/resend-verification-email.input';
 export { CheckEmailInput } from './api/input/check-email.input';
