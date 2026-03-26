@@ -14,9 +14,9 @@ export { DeleteAccountInput } from './api/input/delete-account.input';
 export { VerifyDeleteAccountInput } from './api/input/verify-delete-account.input';
 export { ForgotPasswordInput } from './api/input/forgot-password.input';
 export { ForgotPasswordVerifyInput } from './api/input/forgot-password-verify.input';
-export { SetupMultiFactorAuthInput } from './api/input/setup-two-factor-auth.input';
-export { VerifyMultiFactorAuthInput } from './api/input/verify-two-factor-auth.input';
-export { DisableMultiFactorAuthInput } from './api/input/disable-two-factor-auth.input';
+export { SetupMultiFactorAuthInput } from './api/input/setup-multi-factor-auth.input';
+export { VerifyMultiFactorAuthInput } from './api/input/verify-multi-factor-auth.input';
+export { DisableMultiFactorAuthInput } from './api/input/disable-multi-factor-auth.input';
 export { CheckPasswordStrengthInput } from './api/input/check-password-strength.input';
 
 // API — Output
@@ -25,7 +25,7 @@ export { SignInOutput } from './api/output/sign-in.output';
 export { AuthSessionStatusOutput } from './api/output/auth-session-status.output';
 export { VerifyEmailOutput } from './api/output/verify-email.output';
 export { CheckEmailOutput } from './api/output/check-email.output';
-export { SetupMultiFactorAuthOutput } from './api/output/setup-two-factor-auth.output';
-export { VerifyMultiFactorAuthOutput } from './api/output/verify-two-factor-auth.output';
+export { SetupMultiFactorAuthOutput } from './api/output/setup-multi-factor-auth.output';
+export { VerifyMultiFactorAuthOutput } from './api/output/verify-multi-factor-auth.output';
 export { PasswordRulesOutput } from './api/output/password-rules.output';
 export { CheckPasswordStrengthOutput } from './api/output/check-password-strength.output';

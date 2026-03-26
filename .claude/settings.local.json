@@ -3,7 +3,8 @@
     "allow": [
       "Bash(npm install:*)",
       "Bash(npm run:*)",
-      "Bash(npx tsc-alias:*)"
+      "Bash(npx tsc-alias:*)",
+      "Bash(git mv:*)"
     ]
   }
 }
